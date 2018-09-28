@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trusty</string>
+    <string name="title_activity_app">AppActivity</string>
+    <string name="title_home">Wallet</string>
+    <string name="title_dashboard">Dapps</string>
+    <string name="title_notifications">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
