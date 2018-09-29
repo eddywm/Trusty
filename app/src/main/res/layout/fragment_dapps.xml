@@ -41,15 +41,14 @@
 
                 android:width="270dp"
 
-                android:inputType="text"
-                android:lines="1"
-
-                android:text="https://www.dapps.trustwalletapp.com"
-
                 android:background="@drawable/webview_editext_bg"
+                android:inputType="text"
+
+                android:lines="1"
 
                 android:padding="6dp"
 
+                android:text="@string/dapps_url"
 
                 />
 
@@ -65,6 +64,14 @@
         </LinearLayout>
 
     </android.support.v7.widget.Toolbar>
+
+
+    <WebView
+        android:id="@+id/dappsWebview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        />
 
 
 </FrameLayout>
